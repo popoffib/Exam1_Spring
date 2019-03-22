@@ -103,7 +103,7 @@ class Elevator(object):
         if floor > self.num_floors:
             return False
 
-        else:
+        else: 
             self.floor = floor
             return True
 
