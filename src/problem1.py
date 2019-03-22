@@ -103,11 +103,11 @@ class Elevator(object):
         if floor > self.num_floors:
             return False
 
-        else: 
+        else:
             self.floor = floor
             return True
 
-    def get_passengers(self,num_passengers):
+    def get_passengers(self, num_passengers):
         """
         What comes in:
           -- self
@@ -201,6 +201,30 @@ def run_test_go_to_floor():
     #     Add your values for actual below here
     #
     ################################################################
+    print('Actual: go_to_floor returns :', e1.go_to_floor(4))
+    print('Actual:', e1.capacity, e1.num_floors, e1.floor)
+    print()
+
+    # Test 2:
+    e2 = Elevator(10, 15)
+    expected_capacity = 10
+    expected_num_floors = 15
+    expected_go_to_floor = 5
+    print('Expected: go_to_floor returns :', True)
+    print("Expected:", expected_capacity, expected_num_floors, expected_go_to_floor)
+    print('Actual: got_to_floor returns :', e2.go_to_floor(5))
+    print('Actual:', e2.capacity, e2.num_floors, e2.floor)
+    print()
+
+    # Test 3:
+    e3 = Elevator(30, 20)
+    expected_capacity = 30
+    expected_num_floors = 20
+    expected_go_to_floor = 7
+    print('Expected: go_to_floor returns :', True)
+    print("Expected:", expected_capacity, expected_num_floors, expected_go_to_floor)
+    print('Actual: go_to_floor returns :', e3.go_to_floor(7))
+    print('Actual:', e3.capacity, e3.num_floors, e3.floor)
     print()
 
 
