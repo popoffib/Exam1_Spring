@@ -152,6 +152,7 @@ class Elevator(object):
 # ---------------------------------------------------------------------
 
 
+# COME BACK TO THIS IF TIME AT END
 # ---------------------------------------------------------------------
 #     TODO: 7. Write methods, AS NEEDED, to allow passengers to exit
 #      the elevator.  Show that your solution works with a test case. (2 pts)

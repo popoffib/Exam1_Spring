@@ -32,6 +32,17 @@ def reverseString(string):
     """
     string = string[::-1]
     return string
+    # DONT USE THIS ONE FOR FULL CREDIT
+    # MAKE YOUR OWN BELOW
+
+
+def reverse_string_part_two(string):
+    reverse = ''
+
+    for k in range(len(string)-1, -1, -1):
+        reverse = reverse + (string[k])
+
+    return reverse
 
 
 def test_problem2():
@@ -59,8 +70,63 @@ def test_problem2():
     print('Test case 1 Actual: ')
     problem3(string_of_characters)
     print('*********************************************')
-    # TODO: 2. Write at least three reasonable test cases below.
+    print()
+    # DONE: 2. Write at least three reasonable test cases below.
     #         Three excellent test cases are worth 10 points
+
+    # Test Case 2:
+    # The given string is h0n3y.
+    print('---------------------------------------------')
+    print('Test Case 2 Expected: ')
+    print('*********************************************')
+    string_of_characters = 'h0n3y'
+    print('String entered: ', string_of_characters)
+    print('Length of string: ', 5)
+    print('Number of alphabetical characters: ', 3)
+    print('Number of digits: ', 2)
+    print('Reversed string is: y3n0h')
+    print()
+    print('*********************************************')
+    print('Test Case 2 Actual: ')
+    problem3(string_of_characters)
+    print('---------------------------------------------')
+    print()
+
+    # Test Case 3:
+    # The given string is HiTh1sIsAStrin9ThatW1LLB3Backward5.
+    print('---------------------------------------------')
+    print('Test Case 3 Expected: ')
+    print('*********************************************')
+    string_of_characters = 'HiTh1sIsAStrin9ThatW1LLB3Backward5'
+    print('String entered: ', string_of_characters)
+    print('Length of string: ', 34)
+    print('Number of alphabetical characters: ', 29)
+    print('Number of digits: ', 5)
+    print('Reversed string is: 5drawkcaB3BLL1WtahT9nirtSAsIs1hTiH')
+    print()
+    print('*********************************************')
+    print('Test Case 3 Actual: ')
+    problem3(string_of_characters)
+    print('---------------------------------------------')
+    print()
+
+    # Test Case 4:
+    # The given string is L1F3I5G00D.
+    print('---------------------------------------------')
+    print('Test Case 4 Expected: ')
+    print('*********************************************')
+    string_of_characters = 'L1F3I5G00D'
+    print('String entered: ', string_of_characters)
+    print('Length of string: ', 10)
+    print('Number of alphabetical characters: ', 5)
+    print('Number of digits: ', 5)
+    print('Reversed string is: D00G5I3F1L')
+    print()
+    print('*********************************************')
+    print('Test Case 4 Actual: ')
+    problem3(string_of_characters)
+    print('---------------------------------------------')
+
 
 
 def problem3(string_of_characters):
