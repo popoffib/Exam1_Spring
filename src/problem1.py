@@ -221,9 +221,9 @@ def run_test_go_to_floor():
     expected_capacity = 30
     expected_num_floors = 20
     expected_go_to_floor = 7
-    print('Expected: go_to_floor returns :', True)
+    print('Expected: go_to_floor returns :', False)
     print("Expected:", expected_capacity, expected_num_floors, expected_go_to_floor)
-    print('Actual: go_to_floor returns :', e3.go_to_floor(7))
+    print('Actual: go_to_floor returns :', e3.go_to_floor(22))
     print('Actual:', e3.capacity, e3.num_floors, e3.floor)
     print()
 
