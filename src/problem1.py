@@ -182,7 +182,7 @@ def run_test_go_to_floor():
     print('-----------------------------------------------------------')
     print('Testing the   go_to_floor   method of the Elevator class.')
     print('-----------------------------------------------------------')
-    #     TODO: 3. Write tests for the go_to_floor method. (2 pts)
+    #     DONE: 3. Write tests for the go_to_floor method. (2 pts)
     #     A recommended format is shown below.  Be sure to
     #     add your actual code where indicated.  Include two
     #     test cases - one that works and one that returns False
