@@ -1,8 +1,8 @@
 """
 Exam 1, problem 1. 15 Points
-Authors: Every CSSE faculty member, Dr. Brackin, and PUT YOUR NAME HERE.
+Authors: Every CSSE faculty member, Dr. Brackin, and Isabella Popoff.
 """
-# TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+# DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
