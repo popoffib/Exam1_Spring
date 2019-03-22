@@ -12,9 +12,9 @@ def main():
     # UN-comment tests as you work the problems.
     ###########################################################################
 
-    #run_test_init()
-    #run_test_go_to_floor()
-    #run_test_get_passengers()
+    run_test_init()
+    run_test_go_to_floor()
+    run_test_get_passengers()
 
 
 ###############################################################################
@@ -58,13 +58,16 @@ class Elevator(object):
           :type num_floors: int
         """
         # ---------------------------------------------------------------------
-        #     TODO: 2. Implement and test this function. (3 pts)
+        #     DONE: 2. Implement and test this function. (3 pts)
         #     See the testing code (below) for more examples.
         # ---------------------------------------------------------------------
         # ---------------------------------------------------------------------
+        self.capacity = capacity
+        self.num_floors = num_floors
+        self.humans = 0
+        self.floor = 1
 
-
-    def go_to_floor(self,floor):
+    def go_to_floor(self, floor):
         """
         What comes in:
           -- self
@@ -93,11 +96,16 @@ class Elevator(object):
           #   False is returned by the method
         """
         # ---------------------------------------------------------------------
-        #     TODO: 4. Implement the go_to_floor method. (3 pts)
+        #     DONE: 4. Implement the go_to_floor method. (3 pts)
         #     Write the testing code (below) before writing this method.
         # ---------------------------------------------------------------------
         # ---------------------------------------------------------------------
+        if floor > self.num_floors:
+            return False
 
+        else:
+            self.floor = floor
+            return True
 
     def get_passengers(self,num_passengers):
         """
