@@ -128,7 +128,6 @@ def test_problem2():
     print('---------------------------------------------')
 
 
-
 def problem3(string_of_characters):
     """
     What comes in:
@@ -192,6 +191,10 @@ def problem3(string_of_characters):
     # If you write your own method to reverse a string and solve
     # the entire problem, you will get 25 points. If you use the
     # provided method reverseString(string),you will get 20 points
+
+    # for k in range(len(x)-1, -1, -1):
+    # print(x[k])
+    # if
 
 # -----------------------------------------------------------------------
 # If this module is running at the top level (as opposed to being
