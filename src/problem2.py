@@ -8,8 +8,8 @@ difficult elements as time permits.
 Every student should be able to print the string and the
 length of the string.  If you don't remember how, LOOK at
 your programming sessions!!!   
-PUT YOUR NAME HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+Iasbella Popoff.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
